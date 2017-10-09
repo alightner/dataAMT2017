@@ -344,6 +344,10 @@ df$travel_exp <- factor(df$travel_exp, levels = c(
 UG.data <- df
 UG.presurv <- psc
 UG.preatt <- pac
+rm(a); rm(c); rm(c2); rm(cf); rm(check); rm(d)
+rm(d2); rm(df); rm(dr); rm(ip); rm(p3); rm(pac)
+rm(pp); rm(ppp); rm(psc); rm(repdf); rm(reps)
+rm(surv); rm(surv2); rm(codes)
 ### saves data to package with git commit ####
 #setwd("~/Desktop/MA Thesis/framingdata2017")
 use_data(UG.data, overwrite = TRUE)
